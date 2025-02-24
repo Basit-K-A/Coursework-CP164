@@ -1,0 +1,67 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Basit Khan
+ID:      169058019
+Email:   khan8019@mylaurier.ca
+Version: 2023-01-11
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+2
+3
+1
+4
+3
+None
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+-3
+4
+2
+3
+[3, 2, 4, -3]
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+created stack
+is_empty expects true: True
+push:0
+is_empty expects false: False
+peek expects 0: 0
+pop expects 0: 0
+is_empty expects true: True
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+created stack
+is_empty expects true: True
+push: Name:    Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+is_empty expects false: False
+peek expects Name:    Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135: Name:    Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+pop expects Name:    Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135: Name:    Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+is_empty expects true: True
+None
