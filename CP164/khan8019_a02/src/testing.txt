@@ -1,0 +1,84 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Basit Khan
+ID:      169058019
+Email:   khan8019@mylaurier.ca
+Version: 2023-01-17
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+food1 = Food('Mango',2,True,200)
+food2 = Food('Chicken',2,False,2000)
+food3 = Food('Grape',2,False,2000)
+
+foods = [food1,food2,food3]
+
+origins = by_origin(foods, 2)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Name:    Mango
+Origin:     Indian
+Vegetarian: True
+Calories:   200
+Name:    Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   2000
+Name:    Grape
+Origin:     Indian
+Vegetarian: False
+Calories:   2000
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+food1 = Food('Mango',2,True,2000)
+food2 = Food('Chicken',2,False,2000)
+food3 = Food('Grape',2,False,1000)
+
+foods = [food1,food2,food3]
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+1666
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+food1 = Food('Mango',2,True,2000)
+food2 = Food('Chicken',1,False,2000)
+food3 = Food('Grape',2,False,1000)
+
+foods = [food1,food2,food3]
+
+print(calories_by_origin(foods, 2))
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+1500
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+Chicken                             Chinese           False     2000
+Grape                               Indian            False     1000
+Lavender                            Japanese          False       89
+Mango                               Indian             True     2000
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+food1 = Food('Mango',2,True,2000)
+food2 = Food('Chicken',1,False,2000)
+food3 = Food('Grape',2,False,1000)
+food4 = Food('Lavender',6,False,89)
+
+foods = [food1,food2,food3,food4]
+
+food_search(foods, -1, 1111, False)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Name:    Grape
+Origin:     Indian
+Vegetarian: False
+Calories:   1000
+Name:    Lavender
+Origin:     Japanese
+Vegetarian: False
+Calories:   89
